@@ -1,0 +1,28 @@
+Hallazgos y conclusiones del ejercicio Automatización E2E
+
+Conclusiones:
+
+*Las pruebas pasaron al 100% demostrando que cada proceso del flujo de compras fue satisfactorio hasta finalizar la compra con la confirmación del mensaje: “THANK YOU FOR YOUR ORDER”, verificando que el software se encuentra desarrollado de acuerdo a los requerimientos del cliente y se encuentra listo para ser puesto en Producción.
+
+Recomendación:
+
+*Se sugiere validar en el formulario "Checkout" en los campos: First Name, Last Name y Zip/Postal Code que no permita ingresar caracteres especiales como: /*'-&$, ya que se puede crear información incorrecta.
+
+
+------------------------------------------------------
+
+Hallazgos y conclusiones del ejercicio APIS
+
+Conclusiones: 
+
+*La ejecución de las pruebas fueron satisfactorias ya que pasaron al 100% todos los casos de pruebas de servicios REST establecidos, verificando la integridad de los datos al garantizar la creación de un usuario nuevo, existente, contraseña correcta e incorrecta.
+
+*Se verifica que tiene un buen rendimiento del sistema ya que el tiempo de respuesta de las APIS es 2 seg. aprox.
+
+
+Recomendación:
+1. Se sugiere validar la creación de usuarios y contraseñas reforzadas para garantizar la seguridad de las cuentas, tomando en consideración los siguientes parámetros:
+*Longitud adecuada
+*Combinación de caracteres, entre otros.
+
+2. Se recomienda ejecutar pruebas de carga antes de la puesta en producción para verificar que el sistema soporte gran cantidad de usuarios y que el sistema no tenga problemas de rendimiento o fallos y vaya a colapsar.
